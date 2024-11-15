@@ -1,9 +1,15 @@
 <template>
-  <main class="flex flex-col justify-center">
-    <HomeTwitter />
-    <HomeHero />
-    <HomeFeatures />
-    <HomeLogos />
-    <HomeCta />
-  </main>
+  <div></div>
 </template>
+
+<script setup>
+import { onMounted } from 'vue';
+
+onMounted(() => {
+  window.location.href = 'https://www.smartbd.com';
+});
+</script>
+
+<style>
+/* Optionally, you can keep styles empty or remove them if unused */
+</style>
