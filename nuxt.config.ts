@@ -16,7 +16,7 @@ export default defineNuxtConfig({
 
   routeRules: {
     '/': {
-      prerender: true,
+      prerender: false,
     },
     '/dashboard/**': {
       ssr: false,
@@ -29,8 +29,8 @@ export default defineNuxtConfig({
   hub: {
     ai: true,
     analytics: true,
-    blob: false,
-    cache: false,
+    blob: true,
+    cache: true,
     database: false,
     kv: true,
   },
