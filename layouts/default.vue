@@ -1,7 +1,15 @@
 <script setup>
-import { useRoute } from 'vue-router'; // Import the route composable
+import { useRouter, useRoute } from 'vue-router';
+import { onMounted } from 'vue';
 
-const route = useRoute(); // Get the current route
+const route = useRoute();
+const router = useRouter();
+
+onMounted(() => {
+  if (route.path === '/') {
+    window.location.href = 'https://smartbd.com';
+  }
+});
 </script>
 
 <template>
