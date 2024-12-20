@@ -5,8 +5,7 @@ onMounted(() => {
   // Add HTML content directly to the DOM
   document.body.innerHTML = `
     <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; background-color: #f3f4f6; text-align: center; color: #374151;">
-      <h1 style="font-size: 2rem; font-weight: bold; margin-bottom: 1rem;">404 | Page Not Found</h1>
-      <p style="font-size: 1.25rem; margin-bottom: 1.5rem;">Murubbii....</p>
+      <h1 style="font-size: 2rem; font-weight: bold; margin-bottom: 1rem;">404 | Murubbii....</h1>
       <img
         src="https://i.pinimg.com/originals/b1/03/3b/b1033bc996c69d3a6003c2fa07281aaf.gif"
         alt="Murubbii GIF"
